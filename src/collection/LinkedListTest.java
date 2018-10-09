@@ -8,7 +8,7 @@ public class LinkedListTest {
     public static void main(String[] args) {
         LinkedList<String> staff = new LinkedList<>();
         // Обьект типа LinkedList реализующий связанный список
-        staff.add("Amy");
+        staff.add("Linux");
         staff.add("Bob");
         staff.add("Carl");
         ListIterator<String> iter = staff.listIterator();
