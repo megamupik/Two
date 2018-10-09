@@ -25,7 +25,7 @@ public class SimpleFrameTest {
  * Фрейм содержащий панель сообщений
  */
 class NotHelloWorldFrame extends JFrame {
-    public NotHelloWorldFrame () {
+    NotHelloWorldFrame () {
         add(new NotHelloWorldComponent());
         pack();
     }
